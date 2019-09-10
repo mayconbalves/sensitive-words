@@ -1,0 +1,32 @@
+{
+  "name": "sensitive-words",
+  "version": "1.0.0",
+  "description": "Filter out a list of sensitive words",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "babel": {
+    "presets": ["latest"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayconbalves/sensitive-words.git"
+  },
+  "keywords": [
+    "filter",
+    "filtering",
+    "sensitive",
+    "words"
+  ],
+  "author": "Maycon Alves <mayconmustaine@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayconbalves/sensitive-words/issues"
+  },
+  "homepage": "https://github.com/mayconbalves/sensitive-words#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
