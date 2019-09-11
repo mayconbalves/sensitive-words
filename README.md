@@ -1,7 +1,7 @@
 # Example
 
 ```shell
-$ npm install sensitive-words --save
+$ npm install sensitive-wordss --save
 ```
 
 ```javascript
