@@ -1,9 +1,9 @@
 import sensitiveWords from '.'
 
-test('replace blacklisted words with asterisks', () => {
+test('replace blacklisted words with asterisks', () => (
 	expect(sensitiveWords('your speak portuguese ?', ['portuguese']))
 	.toBe('your speak **** ?')
-})
+))
 
 test('replace blacklisted words with asterisks', () => (
 	expect(sensitiveWords(
