@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function (content, words) {
-	return content.replace(new RegExp(words.join('|'), 'ig'), '****');
+module.exports = function (content, words, subString) {
+	return content.replace(new RegExp(words.join('|'), 'ig'), subString || '****');
 };
